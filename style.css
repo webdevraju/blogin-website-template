@@ -1,0 +1,127 @@
+/*======= Google Font =====*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/*======= Root and Body Reset =======*/
+body{
+	font-family: 'Lato', sans-serif !important;
+}
+.container{
+	padding: 0px;
+}
+
+/*======= Start Navigation (Navbar) Styling  =======*/
+.navbar{
+	background: #292929 !important;
+	border-bottom: 5px solid #1E1E1E;
+	padding: 0;
+	z-index: 1000;
+}
+.navbar-brand{
+	font-size: 2.3rem;
+	font-weight: 700;
+}
+#navResponsive > ul > li.nav-item > a{
+	font-size: 1.2rem;
+	font-weight: 700;
+	padding: 25px;
+	margin-bottom: -4px;
+	color: #fff;
+	border-left: 1px solid #1E1E1E;
+}
+#navResponsive > ul > li:last-child a{
+	border-right: 1px solid #1E1E1E;
+}
+#navResponsive > ul > li.nav-item > a:hover,
+#navResponsive > ul > li.nav-item.active > a{
+	color: #58C93A;
+	border-bottom: 4px solid #58C93A;
+}
+/*=== x ====== End Navigation (Navbar) Styling ====== x ===*/
+
+/*========== Start Main Content (Blog Post and Sidebar) Styling ===========*/
+.main_content{
+	border-left: 1px solid #F1F0F0;
+	border-right: 1px solid #F1F0F0;
+}
+.main_content .content h1{
+	font-size: 1.9rem;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #4F4E4E;
+}
+.main_content .content p{
+	color: #606060;
+}
+.main_content .content a{
+	color: #c2c1c1 ;
+	border: 2px solid #C2C2C2;
+}
+.main_content .content a:hover{
+	color: #58C93A;
+	border-color: #58C93A;
+}
+
+/*=========== Sidebar Start ==========*/
+aside .sidebar h3{
+	background: #F8F8F8;
+	border-left: 2px solid #58C93A;
+	padding: 10px;
+	font-size: 1.2rem;
+	color: #6c6969;
+}
+aside .sidebar p{
+	color: #737373;
+}
+aside .sidebar input{
+	padding: 13px;
+}
+aside .sidebar input[placeholder]{
+	font-size: .8rem;
+	color: #b9b9b9;
+}
+aside .contact{
+	position: relative;
+}
+aside .sidebar input[type="submit"]{
+	background: url("img/email-submit.png") no-repeat;
+	position: absolute;
+	right: 15px;
+	bottom: 11px;
+	text-indent: -999999px;
+	padding: 0px 12px;
+	border: 0px;
+}
+/*==== x ====== Main Content (Blog Post and Sidebar) Styling ==== x ===*/
+
+/*== Start Bottom Content (Post Previos/Next Link) Styling ==*/
+.bottom_content{
+	border-top: 1px solid #F1F0F0;
+}
+.bottom_content a{
+	font-weight: bold;
+	color: #818181;
+}
+.bottom_content a:hover{
+	color: #58C93A;
+}
+
+/*========== Start Footer Section Styling ================*/
+.footer_bg{
+	background: #F8F8F8;
+	border-top: 1px solid #F1F0F0;
+}
+footer ul.nav li a{
+	text-decoration: none;
+}
+footer ul.nav li a i{
+	font-size: 1.2rem;
+	padding: 12px;
+	margin: 0 5px;
+	background-color: #E5E5E5;
+	color: #fff;
+}
+footer ul.nav li a i.fa-facebook-f,
+footer ul.nav li a i:hover{
+	background-color: #1873EB;
+	color: #fff;
+}
